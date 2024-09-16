@@ -1,0 +1,27 @@
+.link-white-underline {
+    color: white;
+    padding: 0;
+    margin: .25rem .75rem;
+    border-bottom: 2px solid transparent;
+}
+
+.link-white-underline:hover,
+.link-white-underline:focus,
+ul.navbar .active
+ {
+    color: lightgreen;
+    border-bottom: 2px solid lightgreen;
+}
+
+.medium-container {
+    max-width: 768px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: lightgreen;
+}
