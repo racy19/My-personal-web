@@ -9,7 +9,7 @@
 .link-white-underline:focus,
 ul.navbar .active
  {
-    color: lightgreen;
+    color: lightgreen !important;
     border-bottom: 2px solid lightgreen;
 }
 
