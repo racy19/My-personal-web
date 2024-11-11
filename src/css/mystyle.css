@@ -7,8 +7,7 @@
 
 .link-white-underline:hover,
 .link-white-underline:focus,
-ul.navbar .active
- {
+ul.navbar .active {
     color: lightgreen !important;
     border-bottom: 2px solid lightgreen;
 }
@@ -24,4 +23,12 @@ footer a {
 
 footer a:hover {
     color: lightgreen;
+}
+
+@media screen and (max-width: 768px) {
+    .link-white-underline:hover,
+    .link-white-underline:focus,
+    ul.navbar .active {
+        border: none;
+    }
 }
