@@ -1,0 +1,13 @@
+{
+    "abilities": "Dovednosti",
+    "contact": "Kontakt",
+    "introduction": "<p>Zatím toho tu moc není, ale to se změní.</p><p>Vítejte na mé stránce, která vznikla v rámci projektu během rekvalifikačního kurzu <em>Programátor www aplikací</em> od&nbsp;<a href='https://www.itnetwork.cz;' target='_blank' rel='noreferrer'>ITnetwork s.r.o.</a></p><p>Zde jsem se učila a nyní stále zdokonaluji programování v jazyce <strong>JavaScript</strong>. Používám framework <strong>Node.js</strong> a knihovnu <strong>React</strong>. Ke stylování prezentační části webu využívám <strong>Bootstrap</strong>. Již dříve jsem se seznámila s redakčním systémem <strong>WordPress</strong> a vytvářením vlastních themes.</p><p>Kromě programování mě baví chodit do přírody a také prozkoumávat Československé opevnění. Jeden zástupce je vidět zde na obrázku :)</p>",
+    "projects": "Moje projekty",
+    "thisPage": "Tato stránka",
+    "aboutThisPage": "osobnÍ webové portfolio",
+    "aboutRickAndMorty": "stránka věnovaná postavičkám ze seriálu Rick and Morty",
+    "familyDatabase": "Databáze členů rodiny",
+    "aboutFamilyDatabase": "formulářová aplikace pro ukládání členů, databáze s vyhledáváním a filtrováním",
+    "linkSoon": "odkaz bude brzy",
+    "contactForm": "Kontaktní formulář"
+}

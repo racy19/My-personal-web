@@ -1,0 +1,13 @@
+{
+    "abilities": "Abilities",
+    "contact": "Contact",
+    "introduction": "<p>There isn't much here yet, but that will change.</p><p>Welcome to my website, which was created as part of a project during the retraining course <em>Web Application Programming</em> by&nbsp;<a href='https://www.itnetwork.cz;' target='_blank' rel='noreferrer'>ITnetwork s.r.o.</a></p><p>I learned here and am still improving my programming skills in <strong>JavaScript</strong>. I use the <strong>Node.js</strong> framework and the <strong>React</strong> library. For styling the presentation part of the website, I use <strong>Bootstrap</strong>. I have previously been introduced to the <strong>WordPress</strong> content management system and creating custom themes.</p><p>Besides programming, I enjoy going to nature and also exploring Czechoslovakian fortifications. One representative can be seen here in the picture :)</p>",
+    "projects": "My projects",
+    "thisPage": "This web",
+    "aboutThisPage": "personal portfolio",
+    "aboutRickAndMorty": "web dedicated to the characters of the Rick and Morty show",
+    "familyDatabase": "Family database",
+    "aboutFamilyDatabase": "form app for saving members, database with search and filter functions",
+    "linkSoon": "link will be soon",
+    "contactForm": "Contact form"
+}

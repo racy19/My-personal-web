@@ -1,107 +1,35 @@
-
+import React from 'react';
+import { useLanguage } from '../components/LanguageContext';
+import Card from '../components/Card';
 
 const Abilities = () => {
+    const { content } = useLanguage();
+
+    const abilitiesData = [
+        { title: 'HTML 5', image: '/img/html5.png', progress: 80 },
+        { title: 'CSS 3', image: '/img/css3.png', progress: 75 },
+        { title: 'JavaScript', image: '/img/javascript.png', progress: 75 },
+        { title: 'Bootstrap', image: '/img/bootstrap.png', progress: 50 },
+        { title: 'Node.js', image: '/img/node-js.png', progress: 25 },
+        { title: 'React', image: '/img/react.png', progress: 25 },
+        { title: 'PHP', image: '/img/php.png', progress: 25 },
+        { title: 'MySQL', image: '/img/mysql.png', progress: 25 },
+    ];
+
     return (
         <div className="container">
             <div id="dovednosti">
-                <h1 className="mt-5">Dovednosti</h1>
+                <h1 className="mt-5">{content.abilities}</h1>
                 <div className="d-flex flex-wrap gap-2 justify-content-center mt-5">
-                    <div className="card shadow-sm text-center w-75 " style={{maxWidth: 152}} >
-                        <div className="card-body d-flex align-items-center" style={{height: 150}} >
-                            <img src={'/img/html5.png'} className="card-img-top w-50 m-auto" alt="" />
-                        </div>
-                        <div className="card-footer">
-                            <h6>HTML 5</h6>
-                            <div className="progress">
-                                <div className="progress-bar progress-bar-striped  bg-success" role="progressbar"
-                                    style={{width: "75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card shadow-sm text-center w-75 " style={{maxWidth: 152}} >
-                        <div className="card-body d-flex align-items-center" style={{height: 150}} >
-                            <img src={'/img/css3.png'} className="card-img-top w-50 m-auto" alt="" />
-                        </div>
-                        <div className="card-footer">
-                            <h6>CSS 3</h6>
-                            <div className="progress">
-                                <div className="progress-bar progress-bar-striped  bg-success" role="progressbar"
-                                    style={{width: "75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card shadow-sm text-center w-75 " style={{maxWidth: 152}} >
-                        <div className="card-body d-flex align-items-center" style={{height: 150}} >
-                            <img src={'./img/javascript.png'} className="card-img-top w-50 m-auto"  alt="" />
-                        </div>
-                        <div className="card-footer">
-                            <h6>JavaScript</h6>
-                            <div className="progress">
-                                <div className="progress-bar progress-bar-striped  bg-success" role="progressbar"
-                                    style={{width: "75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card col-md-2 shadow-sm text-center w-75 " style={{maxWidth: 152}} >
-                        <div className="card-body d-flex align-items-center" style={{height: 150}} >
-                            <img src={'./img/bootstrap.png'} className="card-img-top w-50 m-auto"  alt="" />
-                        </div>
-                        <div className="card-footer">
-                            <h6>Bootstrap</h6>
-                            <div className="progress">
-                                <div className="progress-bar progress-bar-striped  bg-success" role="progressbar"
-                                    style={{width: "50%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card col-md-2 shadow-sm text-center w-75 " style={{maxWidth: 152}} >
-                        <div className="card-body d-flex align-items-center" style={{height: 150}} >
-                            <img src={'./img/node-js.png'} className="card-img-top w-75 m-auto"  alt="" />
-                        </div>
-                        <div className="card-footer">
-                            <h6>Node.js</h6>
-                            <div className="progress">
-                                <div className="progress-bar progress-bar-striped  bg-success" role="progressbar"
-                                    style={{width: "25%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card col-md-2 shadow-sm text-center w-75 " style={{maxWidth: 152}} >
-                        <div className="card-body d-flex align-items-center" style={{height: 150}} >
-                            <img src={'./img/react.png'} className="card-img-top w-50 m-auto"  alt="" />
-                        </div>
-                        <div className="card-footer">
-                            <h6>React</h6>
-                            <div className="progress">
-                                <div className="progress-bar progress-bar-striped  bg-success" role="progressbar"
-                                    style={{width: "25%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card col-md-2 shadow-sm text-center w-75 " style={{maxWidth: 152}} >
-                        <div className="card-body d-flex align-items-center" style={{height: 150}} >
-                            <img src={'./img/php.png'} className="card-img-top w-75 m-auto"  alt="" />
-                        </div>
-                        <div className="card-footer">
-                            <h6>PHP</h6>
-                            <div className="progress">
-                                <div className="progress-bar progress-bar-striped  bg-success" role="progressbar"
-                                    style={{width: "25%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card col-md-2 shadow-sm text-center w-75 " style={{maxWidth: 152}} >
-                        <div className="card-body d-flex align-items-center" style={{height: 150}} >
-                            <img src={'./img/mysql.png'} className="card-img-top w-100 m-auto"  alt="" />
-                        </div>
-                        <div className="card-footer">
-                            <h6>MySQL</h6>
-                            <div className="progress">
-                                <div className="progress-bar progress-bar-striped  bg-success" role="progressbar"
-                                    style={{width: "25%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
+                    {abilitiesData.map((ability, index) => (
+                        <Card
+                            type="abilities"
+                            key={index}
+                            title={ability.title}
+                            image={ability.image}
+                            progress={ability.progress}
+                        />
+                    ))}
                 </div>
             </div>
         </div>

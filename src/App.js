@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Abilities from "./pages/Abilities";
 import Contact from "./pages/Contact";
 import Page from "./pages/Page";
+import NotFound from "./pages/NotFound";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/abilities" element={<Abilities />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </Router>
